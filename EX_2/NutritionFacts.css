@@ -5,6 +5,8 @@ body{
 }
 
 .container{
+    display: flex;
+    flex-flow: column;
     border: black 1px  solid;
     width: 15vw;
     height: 70vh;
@@ -55,5 +57,14 @@ body{
 
 }
 
+#shortline{
+    top: 0px;
+    margin-top: 0%;
+    border: none;
+    height: 1px;
+    background: black;
+    margin-bottom: 0px;
+    width: 95%;
+}
 
 
